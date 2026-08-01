@@ -77,7 +77,7 @@ $$Z'' = 6.56 \cdot \left(\frac{\text{WC}}{\text{TA}}\right) + 3.26 \cdot \left(\
 | **Safe** | $> 2.60$ | Low probability of distress |
 | **Grey** | $1.10 – 2.60$ | Moderate risk / Caution zone |
 | **Distress** | $< 1.10$ | High probability of insolvency |
-## Why Z″-Score, and Why Book Value for X4
+
 
 Used the **Z″-Score** (not the original 5-variable Z-Score) since it drops
 the Sales/Total Assets term — a term that would unfairly reward asset-light
