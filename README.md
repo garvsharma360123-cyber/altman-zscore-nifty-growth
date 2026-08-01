@@ -1,31 +1,5 @@
 # Altman Z″-Score Analysis — Nifty Growth Sector
 
-## What is the Altman Z″-Score?
-
-The **Altman Z″-Score** is a quantitative metric used to assess a company's financial health and predict bankruptcy risk within a 2-year horizon. 
-
-Unlike the classic 5-variable $Z$-score, the **$Z''$ (Double Prime)** variant is specifically tailored for cross-sector analysis (combining manufacturing, tech, and service firms).
-
-### Core Formula & Logic
-
-$$Z'' = 6.56 \cdot \left(\frac{\text{WC}}{\text{TA}}\right) + 3.26 \cdot \left(\frac{\text{RE}}{\text{TA}}\right) + 6.72 \cdot \left(\frac{\text{EBIT}}{\text{TA}}\right) + 1.05 \cdot \left(\frac{\text{BVE}}{\text{TL}}\right)$$
-
-* **$\text{WC}/\text{TA}$ (Working Capital / Total Assets):** Measures short-term liquidity.
-* **$\text{RE}/\text{TA}$ (Retained Earnings / Total Assets):** Measures cumulative profitability and leverage balance over time.
-* **$\text{EBIT}/\text{TA}$ (Operating Profit / Total Assets):** Measures asset efficiency without tax/interest distortion.
-* **$\text{BVE}/\text{TL}$ (Book Value of Equity / Total Liabilities):** Measures balance sheet solvency and debt cushion.
-
-> **Key Modification:** Drops the original Sales/Assets ratio ($X_5$) to eliminate bias toward asset-light industries (like IT), making cross-sector comparisons fair.
-
-### Risk Zones
-
-| Zone | $Z''$-Score | Distress Risk |
-| :--- | :--- | :--- |
-| **Safe** | $> 2.60$ | Low probability of distress |
-| **Grey** | $1.10 – 2.60$ | Moderate risk / Caution zone |
-| **Distress** | $< 1.10$ | High probability of insolvency |
-
-
 ## Project Summary
 A Power BI dashboard applying the Altman Z″-Score (bankruptcy/distress risk
 model) to 20 Indian listed companies — 15 Nifty large-caps across IT, FMCG,
@@ -79,7 +53,30 @@ independently known distress cases — the model catching them using only
 public balance sheet ratios is the strongest proof point in this project.
 
 ---
+## What is the Altman Z″-Score?
 
+The **Altman Z″-Score** is a quantitative metric used to assess a company's financial health and predict bankruptcy risk within a 2-year horizon. 
+
+Unlike the classic 5-variable $Z$-score, the **$Z''$ (Double Prime)** variant is specifically tailored for cross-sector analysis (combining manufacturing, tech, and service firms).
+
+### Core Formula & Logic
+
+$$Z'' = 6.56 \cdot \left(\frac{\text{WC}}{\text{TA}}\right) + 3.26 \cdot \left(\frac{\text{RE}}{\text{TA}}\right) + 6.72 \cdot \left(\frac{\text{EBIT}}{\text{TA}}\right) + 1.05 \cdot \left(\frac{\text{BVE}}{\text{TL}}\right)$$
+
+* **$\text{WC}/\text{TA}$ (Working Capital / Total Assets):** Measures short-term liquidity.
+* **$\text{RE}/\text{TA}$ (Retained Earnings / Total Assets):** Measures cumulative profitability and leverage balance over time.
+* **$\text{EBIT}/\text{TA}$ (Operating Profit / Total Assets):** Measures asset efficiency without tax/interest distortion.
+* **$\text{BVE}/\text{TL}$ (Book Value of Equity / Total Liabilities):** Measures balance sheet solvency and debt cushion.
+
+> **Key Modification:** Drops the original Sales/Assets ratio ($X_5$) to eliminate bias toward asset-light industries (like IT), making cross-sector comparisons fair.
+
+### Risk Zones
+
+| Zone | $Z''$-Score | Distress Risk |
+| :--- | :--- | :--- |
+| **Safe** | $> 2.60$ | Low probability of distress |
+| **Grey** | $1.10 – 2.60$ | Moderate risk / Caution zone |
+| **Distress** | $< 1.10$ | High probability of insolvency |
 ## Why Z″-Score, and Why Book Value for X4
 
 Used the **Z″-Score** (not the original 5-variable Z-Score) since it drops
