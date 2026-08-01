@@ -100,7 +100,7 @@ how expensive the stock is, not how much debt cushion the company has.
 
 ## Data Sources
 
-[Screener.in](https://www.screener.in) (primary) · [Simply Wall St](https://simplywall.st) · [Tipranks](https://www.tipranks.com)
+[Screener.in](https://www.screener.in) 
 
 ## How to Open
 
