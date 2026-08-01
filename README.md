@@ -12,7 +12,7 @@ added for contrast (including one currently in insolvency proceedings).
 ## Dashboard Pages
 
 ### Page 1 — Z″-Score & EBIT Margin Quadrant
-![Z Score and EBIT Margin quadrant](z''-ebit-quadrant.png)
+![Z Score and EBIT Margin quadrant](./z''-ebit-qudrant.png)
 
 Scatter plot: every company's EBIT Margin vs. Z″-Score.
 
@@ -28,7 +28,7 @@ operating result. It's a one-time ~₹57,595 Cr AGR-related gain in Q4 FY26.
 Its actual day-to-day operations are still loss-making.
 
 ### Page 2 — Sector Comparison
-![Average Z Score by sector](avg-sector-wise-zscore.png)
+![Average Z Score by sector](./avg-sector-wise-z-score.png)
 
 Average Z″-Score by sector, colored by Safe/Grey/Distress mix. **Filtered to
 only IT Services, Automobiles, FMCG, and Pharmaceuticals** — the four
@@ -40,7 +40,7 @@ not a real comparison.
 stable earnings). Automobiles has the widest spread.
 
 ### Page 3 — Distress & Grey Zone Drill-Down
-![Distressed and Grey zone companies](Distressed-grey-zone.png)
+![Distressed and Grey zone companies](./Distressed-grey-zone-companies.png)
 
 Two side-by-side charts, showing only the 4 flagged companies (Jaiprakash
 Associates, Vodafone Idea, TVS Motor, Vedanta) — Z″-Score on the left, EBIT
@@ -66,29 +66,3 @@ X4 (leverage ratio) uses **Book Value of Equity**, not Market Cap. The
 market-cap version produced scores like 110 for Divi's Labs — technically
 correct math, but meaningless as a distress signal, since it mostly reflects
 how expensive the stock is, not how much debt cushion the company has.
-
-```
-Z″ = 6.56·(WC/TA) + 3.26·(RE/TA) + 6.72·(EBIT/TA) + 1.05·((TA−TL)/TL)
-```
-Zones: **Safe** > 2.6 · **Grey** 1.1–2.6 · **Distress** < 1.1
-
----
-
-## Key Limitations
-
-- Single-year snapshot (FY Mar-2026) — no trend over time
-- Working Capital figures are approximations for several companies (from
-  balance-sheet-health snapshots, not literal CA−CL from filings)
-- 4 companies (Eicher Motors, Sun Pharma, Divi's Labs, Apollo Hospitals) rely
-  on third-party aggregator data rather than a full primary balance sheet pull
-- Not investment advice — this measures distress risk, not overall investment
-  quality (growth, valuation, management aren't captured here)
-
-## Data Sources
-
-[Screener.in](https://www.screener.in) (primary) · [Simply Wall St](https://simplywall.st) · [Tipranks](https://www.tipranks.com)
-
-## How to Open
-
-1. Download `Report.pbix`
-2. Open in Power BI Desktop
