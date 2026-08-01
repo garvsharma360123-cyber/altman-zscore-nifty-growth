@@ -8,9 +8,8 @@ added for contrast (including one currently in insolvency proceedings).
 
 ---
 
-## Dashboard Pages
 
-### Page 1 — Z″-Score & EBIT Margin Quadrant
+ Z″-Score & EBIT Margin Quadrant
 ![Z Score and EBIT Margin quadrant](./z''-ebit-qudrant.png)
 
 Scatter plot: every company's EBIT Margin vs. Z″-Score.
@@ -26,7 +25,7 @@ Scatter plot: every company's EBIT Margin vs. Z″-Score.
 operating result. It's a one-time ~₹57,595 Cr AGR-related gain in Q4 FY26.
 Its actual day-to-day operations are still loss-making.
 
-### Page 2 — Sector Comparison
+Sector Comparison
 ![Average Z Score by sector](./avg-sector-wise-z-score.png)
 
 Average Z″-Score by sector, colored by Safe/Grey/Distress mix. **Filtered to
@@ -38,7 +37,7 @@ not a real comparison.
 **Takeaway:** IT Services and Pharma score consistently high (low leverage,
 stable earnings). Automobiles has the widest spread.
 
-### Page 3 — Distress & Grey Zone Drill-Down
+ Distress & Grey Zone Drill-Down
 ![Distressed and Grey zone companies](./Distressed-grey-zone-companies.png)
 
 Two side-by-side charts, showing only the 4 flagged companies (Jaiprakash
