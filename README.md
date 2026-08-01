@@ -26,7 +26,7 @@ $$Z'' = 6.56 \cdot \left(\frac{\text{WC}}{\text{TA}}\right) + 3.26 \cdot \left(\
 | **Distress** | $< 1.10$ | High probability of insolvency |
 
 
-
+## Project Summary
 A Power BI dashboard applying the Altman Z″-Score (bankruptcy/distress risk
 model) to 20 Indian listed companies — 15 Nifty large-caps across IT, FMCG,
 auto, pharma, and healthcare, plus 5 companies with real financial stress
