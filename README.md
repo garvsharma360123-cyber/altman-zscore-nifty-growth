@@ -88,3 +88,20 @@ X4 (leverage ratio) uses **Book Value of Equity**, not Market Cap. The
 market-cap version produced scores like 110 for Divi's Labs — technically
 correct math, but meaningless as a distress signal, since it mostly reflects
 how expensive the stock is, not how much debt cushion the company has.
+## Key Limitations
+
+- Single-year snapshot (FY Mar-2026) — no trend over time
+- Working Capital figures are approximations for several companies (from
+  balance-sheet-health snapshots, not literal CA−CL from filings)
+- 4 companies (Eicher Motors, Sun Pharma, Divi's Labs, Apollo Hospitals) rely
+  on third-party aggregator data rather than a full primary balance sheet pull
+- Not investment advice — this measures distress risk, not overall investment
+  quality (growth, valuation, management aren't captured here)
+
+## Data Sources
+
+[Screener.in](https://www.screener.in) (primary) · [Simply Wall St](https://simplywall.st) · [Tipranks](https://www.tipranks.com)
+
+## How to Open
+
+1. Download `Report.pbix`
