@@ -5,7 +5,6 @@ model) to 20 Indian listed companies — 15 Nifty large-caps across IT, FMCG,
 auto, pharma, and healthcare, plus 5 companies with real financial stress
 added for contrast (including one currently in insolvency proceedings).
 
-**File:** `Report.pbix` — open in Power BI Desktop to explore interactively.
 
 ---
 
