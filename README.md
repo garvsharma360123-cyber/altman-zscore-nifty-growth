@@ -10,7 +10,7 @@ added for contrast (including one currently in insolvency proceedings).
 
 
  Z″-Score & EBIT Margin Quadrant
-![Z Score and EBIT Margin quadrant](./z''-ebit-qudrant.png)
+![Z Score and EBIT Margin quadrant](./z''-ebit-quadrant.png)
 
 Scatter plot: every company's EBIT Margin vs. Z″-Score.
 
