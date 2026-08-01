@@ -12,7 +12,7 @@ added for contrast (including one currently in insolvency proceedings).
 ## Dashboard Pages
 
 ### Page 1 — Z″-Score & EBIT Margin Quadrant
-![Z Score and EBIT Margin quadrant](page1-zscore-ebit-quadrant.png)
+![Z Score and EBIT Margin quadrant](zscore-ebit-quadrant.png)
 
 Scatter plot: every company's EBIT Margin vs. Z″-Score.
 
@@ -28,7 +28,7 @@ operating result. It's a one-time ~₹57,595 Cr AGR-related gain in Q4 FY26.
 Its actual day-to-day operations are still loss-making.
 
 ### Page 2 — Sector Comparison
-![Average Z Score by sector](page2-sector-wise-zscore.png)
+![Average Z Score by sector](sector-wise-zscore.png)
 
 Average Z″-Score by sector, colored by Safe/Grey/Distress mix. **Filtered to
 only IT Services, Automobiles, FMCG, and Pharmaceuticals** — the four
@@ -40,7 +40,7 @@ not a real comparison.
 stable earnings). Automobiles has the widest spread.
 
 ### Page 3 — Distress & Grey Zone Drill-Down
-![Distressed and Grey zone companies](page3-distressed-grey-zone.png)
+![Distressed and Grey zone companies](distressed-grey-zone.png)
 
 Two side-by-side charts, showing only the 4 flagged companies (Jaiprakash
 Associates, Vodafone Idea, TVS Motor, Vedanta) — Z″-Score on the left, EBIT
